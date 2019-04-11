@@ -1,4 +1,8 @@
-h1{
-    color: blueviolet;
-    font-size: 32px;
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
+
+/* font-family: 'Lora', serif;
+font-family: 'Quicksand', sans-serif; */
