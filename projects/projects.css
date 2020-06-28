@@ -1,0 +1,173 @@
+.side-bar{
+    background-color: lightgray;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    width: 400px;
+}
+
+.side-bar ul{
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.side-bar li a{
+    color: black;
+    padding: 10px 50px 10px 10px;
+}
+
+.cover-heading{
+    font-weight: bold;
+    color: #0084b4;
+}
+
+.content{
+    text-align: justify;
+}
+
+.ptext{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.resumelist{
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linktitle{
+    color: #0084b4;
+}
+
+.linktitle:hover{
+    color: firebrick;
+    text-decoration: none;
+}
+
+.wrapper{
+    display: block;
+    width: 100%;
+}
+
+#sidebar{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: #c0c0c0;
+    color: white;
+}
+
+#sidebar ul{
+    list-style-type: none;
+}
+
+#sidebar ul li{
+    margin-top: 20px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: white;
+}
+
+#sidebar ul li a:hover{
+    color: #0084b4;
+}
+
+#sidebar ul li.active > a{
+    color: #0084b4;
+}
+
+h4.sectiontitle{
+    margin-top: 20px;
+}
+
+@media (max-width: 992px){
+    body{
+        padding-top: 70px;
+    }
+    #sidebar{
+        width: 900px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 60px;
+    }
+
+    #sidebar ul{
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        margin-left: 50px;
+    }
+
+    #sidebar ul li{
+        float: left;
+        margin-top: 10px;
+    }
+
+    #sidebar ul li a{
+        display: inline-block;
+        padding: 14px 16px;
+    }
+}
+
+@media (max-width: 575px){
+    .ptext{
+        font-size: 16px;
+    }
+
+    #sidebar ul{
+        margin-left: 20px;
+    }
+
+    #sidebar ul li a{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    .resumelist{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px){
+    .ptext{
+        font-size: 15px;
+    }
+
+    #sidebar ul{
+        margin-left: 8px;
+    }
+
+    #sidebar ul li a{
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    .resumelist{
+        font-size: 15px;
+    }
+}
