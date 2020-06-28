@@ -1,2 +1,2 @@
-# odike.github.io
-Building a new website to tell my story in a more comprehensive way.
+# odike.github.io - (Personal Website)
+A personal website to tell my story in a more comprehensive way.
