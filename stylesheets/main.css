@@ -47,5 +47,31 @@ nav{
   color: #0084b4;
 }
 
+@media (max-width: 900px){
+  .wrap{
+    margin: 0 auto;
+    width: 400px;
+    padding: 190px;
+  }
+
+  nav{
+      display: block;
+      text-align: center;
+  }
+}
+
+@media (max-width: 600px){
+  .wrap{
+    margin: 0 auto;
+    width: 300px;
+    padding: 190px;
+  }
+
+  nav{
+      display: block;
+      text-align: center;
+  }
+}
+
 /* font-family: 'Lora', serif;
 font-family: 'Quicksand', sans-serif; */
