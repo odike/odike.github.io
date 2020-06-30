@@ -62,13 +62,28 @@ nav{
 
 @media (max-width: 600px){
   .wrap{
-    margin: 0 auto;
     width: 300px;
-    padding: 190px;
+    padding: 160px;
   }
 
   nav{
       display: block;
+      text-align: center;
+  }
+}
+
+@media (max-width: 470px){
+  .wrap p{
+    font-size: 20px;
+  }
+
+  .wrap{
+    width: 200px;
+    padding: 100px;
+  }
+
+  nav{
+      /* display: block; */
       text-align: center;
   }
 }

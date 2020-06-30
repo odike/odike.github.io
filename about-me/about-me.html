@@ -15,11 +15,56 @@
         <link href="../css/bootstrap.css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Titillium+Web" rel="stylesheet">
-
+        <script src="https://use.fontawesome.com/56a4f55b2c.js"></script>
         <!-- Custom styles for this template -->
-    <link href="about-me.css" rel="stylesheet">
+        <link href="about-me.css" rel="stylesheet">
     </head>
     <body>
+        <div id="dropbar">
+            <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="myFunction()"></i>
+            <div id="navigation" style="display: none;">
+              <ul class="dropdown-content">
+                  <li><a href="../index.html" >Home</a></li>
+                  <li><a href="../resume/resume.html" >Resume</a></li>
+                  <li><a href="../resume/odike_resume.pdf" target="_blank">Resume PDF</a></li>
+                  <li><a href="../projects/projects.html">Projects</a></li>
+                  <!-- <li><a href="mailto:odikekachukwu@gmail.com">Contact</a></li> -->
+             </ul>
+           </div>
+            <!-- <a class="nav menu" href="#"><span class="icons">☰</span></a>
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div> -->
+        </div>
+        <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          div = document.getElementById("navigation");
+          if(div.style.display == "block"){
+            div.style.display = "none";
+          }else{
+            div.style.display = "block";
+          }
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        // window.onclick = function(event) {
+        //   if (!event.target.matches('dropbtn')) {
+        //     var dropdowns = document.getElementsByClassName("dropdown-content");
+        //     var i;
+        //     for (i = 0; i < dropdowns.length; i++) {
+        //       var openDropdown = dropdowns[i];
+        //       if (openDropdown.classList.contains('show')) {
+        //         openDropdown.classList.remove('show');
+        //       }
+        //     }
+        //   }
+        // }
+        </script>
         <div class="container">
             <div class="row">
                 <div class="content col-md-9">
@@ -57,6 +102,17 @@
                             <li><a href="mailto:odikekachukwu@gmail.com">Contact</a></li>
                         </ul>
                     </nav>
+
+                    <!-- <nav id="dropbar">
+                      <ul class="dropdown-menu">
+                          <li><a href="../index.html">Home</a></li>
+                          <li class="active"><a href="#">About Me</a></li>
+                          <li><a href="../resume/resume.html">Resume</a></li>
+                          <li><a href="../resume/odike_resume.pdf" target="_blank">Resume PDF</a></li>
+                          <li><a href="../projects/projects.html">Projects</a></li>
+                          <li><a href="mailto:odikekachukwu@gmail.com">Contact</a></li>
+                      </ul>
+                    </nav> -->
                 </div>
             </div>
         </div>
