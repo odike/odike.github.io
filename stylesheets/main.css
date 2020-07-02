@@ -62,6 +62,7 @@ nav{
 
 @media (max-width: 600px){
   .wrap{
+    margin: 0 auto;
     width: 300px;
     padding: 160px;
   }
@@ -78,12 +79,13 @@ nav{
   }
 
   .wrap{
+    margin: 0 auto;
     width: 200px;
     padding: 100px;
   }
 
   nav{
-      /* display: block; */
+      display: block;
       text-align: center;
   }
 }
